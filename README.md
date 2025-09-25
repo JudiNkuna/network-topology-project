@@ -122,6 +122,8 @@ screenshots and verification:
 
 5.Extended Star Topology
 Devices
+3x Switch
+6x PC-PT
 
 
 screenshot and Verification:
