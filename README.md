@@ -59,4 +59,29 @@ screenshot and verification:
 
 <img width="1366" height="768" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/2f2d480c-d0fc-4640-b470-8dc457efce1a" />
 
+3.Star Topology
+
+Devices
+
+4x PC-PT
+1x Switch-PT
+copper straight through
+IP Addressing:
+
+Device	IPv4 Address	IPv6 Address
+PC0	192.168.1.2/24	2001:DB8:1::2/64
+PC1	192.168.1.3/24	2001:DB8:1::3/64
+PC2	192.168.1.4/24	2001:DB8:1::4/64
+PC3	192.168.1.5/24	2001:DB8:1::5/64
+
+### Configuration Steps
+1. Physical connections completed
+2. IP addresses assigned
+3. Connectivity tested
+
+screenshot and verification:
+<img width="1366" height="768" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/4347244b-bfb7-41f0-8fc8-8d9c8ed387be" />
+
+<img width="1366" height="768" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/f5ba560d-2f6c-46c2-a070-396d342b8245" />
+
 
