@@ -40,9 +40,9 @@ Screenshot and Verification:
 2.Mesh Topology
 
 ##Devices
-4x PC-PT
-4x Switch-PT
-Copper cross  over cable
+-4x PC-PT
+-4x Switch-PT
+-Copper cross  over cable
 
 ##IP Addressing:
 
@@ -65,9 +65,9 @@ screenshot and verification:
 
 Devices
 
-4x PC-PT
-1x Switch-PT
-copper straight through
+-4x PC-PT
+-1x Switch-PT
+-copper straight through
 
 IP Addressing:
 Device	IPv4 Address	IPv6 Address
@@ -88,11 +88,11 @@ screenshot and verification:
 
 4.Ring Topology
 
-Devices 
-7x PC-PT
-7x Switch
-copper straoght through
-copper cross over
+-Devices 
+-7x PC-PT
+-7x Switch
+-copper straoght through
+-copper cross over
 
 Network Behaviour:
 -Logical Topology: STP(spanning tree protocol)
@@ -118,9 +118,10 @@ screenshots and verification:
 <img width="1366" height="768" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/3ca19058-a8dd-4346-a960-fd2fd3dfba9f" />
 
 5.Extended Star Topology
-Devices
-3x Switch
-6x PC-PT
+-Devices
+-3x Switch
+-6x PC-PT
+-copper straight through
 
 IP Addressing:
 Device	IPv4 Address	IPv6 Address
