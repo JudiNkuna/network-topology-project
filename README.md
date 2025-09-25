@@ -66,8 +66,8 @@ Devices
 4x PC-PT
 1x Switch-PT
 copper straight through
-IP Addressing:
 
+IP Addressing:
 Device	IPv4 Address	IPv6 Address
 PC0	192.168.1.2/24	2001:DB8:1::2/64
 PC1	192.168.1.3/24	2001:DB8:1::3/64
@@ -83,5 +83,39 @@ screenshot and verification:
 <img width="1366" height="768" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/4347244b-bfb7-41f0-8fc8-8d9c8ed387be" />
 
 <img width="1366" height="768" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/f5ba560d-2f6c-46c2-a070-396d342b8245" />
+
+
+4.Ring Topology
+
+Devices 
+7x PC-PT
+7x Switch
+copper straoght through
+copper cross over
+
+Network Behaviour:
+-Logical Topology: STP(spanning tree protocol)
+-Physical Topology:7 switches in a ring configuration
+STP denoted by the orange dot,prevents network loops and provises
+
+IP Addressing:
+Device	IPv4 Address	IPv6 Address
+PC0	192.168.1.10/24	2001:DB8:1::0/64
+PC1	192.168.1.11/24	2001:DB8:1::1/64
+PC2	192.168.1.12/24	2001:DB8:1::2/64
+PC3	192.168.1.13/24	2001:DB8:1::3/64
+PC0	192.168.1.14/24	2001:DB8:1::4/64
+PC1	192.168.1.15/24	2001:DB8:1::5/64
+PC2	192.168.1.16/24	2001:DB8:1::6/64
+### Configuration Steps
+1. Physical connections completed
+2. IP addresses assigned
+3. Connectivity tested
+
+screenshots and verification:
+<img width="1366" height="768" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/cba933db-5e59-4b1c-9af1-308404870b4b" />
+
+<img width="1366" height="768" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/3ca19058-a8dd-4346-a960-fd2fd3dfba9f" />
+
 
 
