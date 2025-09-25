@@ -30,7 +30,10 @@ PC3	192.168.1.5/24	2001:db8:1::3/64
 1. Physical connections completed
 2. IP addresses assigned
 3. Connectivity tested
-Screenshot and Verification: <img width="1366" height="768" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/5c099c09-95fd-442c-9228-d0d01ab19d49" />
+Screenshot and Verification:
+<img width="1366" height="768" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/2e784326-fd9f-466f-b75b-d2494c08e94b" />
+
+<img width="1366" height="768" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/5c099c09-95fd-442c-9228-d0d01ab19d49" />
 
 
 
@@ -117,5 +120,11 @@ screenshots and verification:
 
 <img width="1366" height="768" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/3ca19058-a8dd-4346-a960-fd2fd3dfba9f" />
 
+5.Extended Star Topology
+Devices
 
+
+screenshot and Verification:
+<img width="1366" height="768" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/30273f98-ae4e-4549-aeae-5ae90bf14928" />
+<img width="1366" height="768" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/9b04833f-98e3-441f-beb8-8c2d5b5adc92" />
 
