@@ -1,1 +1,41 @@
-s
+IP ADDRESSING
+
+PC0:
+IPv4:192.168.1.10
+IPv6:2001:db8:1::10
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+PC1:
+IPv4:IPv4:192.168.1.11
+IPv6:2001:db8:1::11
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+PC2:
+IPv4:192.168.1.12
+IPv6:2001:db8:1::12
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+PC3:
+IPv4:192.168.1.13
+IPv6:2001:db8:1::13
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+
+PC4:
+IPv4:192.168.1.14
+IPv6:2001:db8:1::14
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+
+PC5:
+IPv4:192.168.1.15
+IPv6:2001:db8:1::15
+subnet mask:255.255.255.0
+Default gateway:8.8.8.8
+
+
