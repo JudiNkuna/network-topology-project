@@ -1,1 +1,33 @@
-s
+IP CONFIGURATIONS
+
+PC0:
+IPv4:192.168.1.10
+IPv6:2001:DB8:1::10/64
+Default Gateway :8.8.8.8
+
+PC1:
+IPv4:192.168.1.11
+IPv6:2001:DB8:1::11/64
+Default Gateway :8.8.8.8
+
+PC2:
+IPv4:192.168.1.12
+IPv6:2001:DB8:1::12/64
+Default Gateway :8.8.8.8
+
+PC3:
+IPv4:192.168.1.13
+IPv6:2001:DB8:1::13/64
+Default Gateway :8.8.8.8
+
+PC4:
+IPv4:192.168.1.14
+IPv6:2001:DB8:1::14/64
+Default Gateway :8.8.8.8
+
+PC5:
+IPv4:192.168.1.15
+IPv6:2001:DB8:1::15/64
+Default Gateway :8.8.8.8
+
+
