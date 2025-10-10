@@ -7,7 +7,7 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student ID:** 31978150
 
 ## Implemented Topologies
-1. Bus Topology
+##1. Bus Topology
 File: BusTopology.pkt
 
 Description:
@@ -21,7 +21,7 @@ Terminators at both ends
 
 Simple cost-effective design
 
-2. Mesh Topology
+##2. Mesh Topology
 File: MeshTopology1.pkt
 
 Description:
@@ -35,7 +35,7 @@ Maximum redundancy
 
 High cabling complexity
 
-3. Ring Topology
+##3. Ring Topology
 File: RingTopology1.pkt
 
 Description:
@@ -49,7 +49,7 @@ Token passing mechanism
 
 Deterministic performance
 
-4. Star Topology
+##4. Star Topology
 File: StarTopology.pkt
 
 Description:
@@ -63,7 +63,7 @@ Single point of failure (central device)
 
 Easy to expand
 
-5. Extended Star Topology
+##5. Extended Star Topology
 File: ExtendedStar1.pkt
 
 Description:
@@ -77,7 +77,7 @@ Multiple central points
 
 Enterprise-level architecture
 
-6. Hybrid Topology
+##6. Hybrid Topology
 File:  HybridTopology.pkt
 
  Description: A combination of two or more topologies.
