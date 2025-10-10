@@ -7,9 +7,8 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student ID:** 31978150
 
  Implemented Topologies
-🌟 Implemented Topologies
 1. Bus Topology
-File: busTopology.pkt
+File: BusTopology.pkt
 
 Description:
 Linear network architecture where all devices share a single communication backbone.
@@ -22,7 +21,67 @@ Terminators at both ends
 
 Simple cost-effective design
 
-6.Hybrid Topology
+2. Mesh Topology
+File: MeshTopology1.pkt
+
+Description:
+Fully interconnected network providing redundant paths and high reliability.
+
+Key Features:
+
+Point-to-point connections between all devices
+
+Maximum redundancy
+
+High cabling complexity
+
+3. Ring Topology
+File: RingTopology1.pkt
+
+Description:
+Circular network where each device connects to exactly two neighbors.
+
+Key Features:
+
+Unidirectional or bidirectional data flow
+
+Token passing mechanism
+
+Deterministic performance
+
+4. Star Topology
+File: StarTopology.pkt
+
+Description:
+Centralized network with all devices connected to a central hub/switch.
+
+Key Features:
+
+Centralized management
+
+Single point of failure (central device)
+
+Easy to expand
+
+5. Extended Star Topology
+File: ExtendedStar1.pkt
+
+Description:
+Hierarchical star topology with multiple layers of central devices.
+
+Key Features:
+
+Scalable hierarchical design
+
+Multiple central points
+
+Enterprise-level architecture
+
+6. Hybrid Topology
+File:  HybridTopology.pkt
+
+ Description: A combination of two or more topologies.
+ 
 -2X routers
 -6x Switches
 -12x PC's
