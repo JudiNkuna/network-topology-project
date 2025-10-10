@@ -1,7 +1,7 @@
-# Part II: Basic Web Server Configuration
+# Part II: Individual Network Feature - Basic Web Server
 
-# Objective
-Configure and demonstrate a fully functional web server with multiple pages, DNS integration, and access control.
+### 1. Feature Overview
+The objective was to deploy a basic web server within the hybrid network topology. The server hosts a "mywebsite", a site that  shows my Contact details ,module details and Hybrid topolgy i created
 
 ## Server Configuration
 
@@ -24,7 +24,7 @@ Configure and demonstrate a fully functional web server with multiple pages, DNS
 
 ---
 
-## 📄 Web Pages Created
+## Web Pages Created
 
 # 1. index.html (Homepage)
 - **Purpose:** Main landing page
