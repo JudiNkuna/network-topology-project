@@ -7,15 +7,15 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student ID:** 31978150
 
  Implemented Topologies
-1. BusTopology
-File: bus-topology.pkt
+🌟 Implemented Topologies
+1. Bus Topology
+File: busTopology.pkt
 
-##Description:
+Description:
 Linear network architecture where all devices share a single communication backbone.
 
-##Key Features:
-4X PC'S
-1X HUB
+Key Features:
+
 Single backbone cable
 
 Terminators at both ends
