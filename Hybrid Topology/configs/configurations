@@ -73,8 +73,19 @@ interface GigabitEthernet0/1
 switchport mode trunk
 switchport allowed 10,30
 no shutdown
+ 
+##ACL(ACCESS CONTROL LIST)
+! Allow VLAN 10 to access VLAN 30 servers
+access-list 101 permit ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255
+
+! Apply to router interface
+interface GigabitEthernet0/0
+ ip access-group 101 in
 !Trunk on Acc-switches
 Interface range FastEthernet0/1-6
 switchport mode trunk
 switchport trunk allowed vlan 10,30
 no shutdown
+
+
+
