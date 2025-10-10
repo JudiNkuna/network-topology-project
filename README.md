@@ -82,3 +82,25 @@ STP denoted by the orange dot,prevents network loops and provises
 -copper straight cable
 VLANS 10: Computers
 VLAN30: Servers
+##Topology Characteristics
+Mesh Component:
+Implementation: Dual routers with interconnected links
+Redundancy: Multiple paths between routers and distribution switches
+Benefit: High availability and fault tolerance
+
+Star Compon:ent
+Implementation: Access switches connecting end devices to distribution switches
+Devices: PCs and servers connect to access switches in star formation
+Benefit: Easy troubleshooting and centralized management
+
+Bus Component:
+Implementation: Distribution switches connected via trunk link
+Data Flow: Shared backbone between distribution layers
+Benefit: Simplified inter-switch communication
+
+Ring Component:
+Implementation: Spanning Tree Protocol creates logical ring for redundancy
+Loop Prevention: STP prevents broadcast storms
+Benefit: Automatic failover and path redundancy
+
+
