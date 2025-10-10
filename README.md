@@ -35,7 +35,7 @@ Maximum redundancy
 
 High cabling complexity
 
-##3. Ring Topology
+## Ring Topology
 File: RingTopology1.pkt
 
 Description:
@@ -49,7 +49,7 @@ Token passing mechanism
 
 Deterministic performance
 
-##4. Star Topology
+## Star Topology
 File: StarTopology.pkt
 
 Description:
@@ -63,7 +63,7 @@ Single point of failure (central device)
 
 Easy to expand
 
-##5. Extended Star Topology
+## Extended Star Topology
 File: ExtendedStar1.pkt
 
 Description:
@@ -77,7 +77,7 @@ Multiple central points
 
 Enterprise-level architecture
 
-##6. Hybrid Topology
+## Hybrid Topology
 File:  HybridTopology.pkt
 
  Description: A combination of two or more topologies.
