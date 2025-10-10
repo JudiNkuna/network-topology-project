@@ -6,73 +6,19 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student Name:** RJ Nkuna 
 **Student ID:** 31978150
 
-1.Bus Topology
+ Implemented Topologies
+1. BusTopology
+File: bus-topology.pkt
+Description:
+Linear network architecture where all devices share a single communication backbone.
 
-Design: Linear network with central backbone cable
+Key Features:
 
-##Devices:
+Single backbone cable
 
--4x PC-PT
+Terminators at both ends
 
--1x Hub-PT
-
--Copperstraight through cable
-
-### Configuration Steps
-1. Physical connections completed
-2. IP addresses assigned
-3. Connectivity tested
-
-
-2.Mesh Topology
-
-##Devices
--4x PC-PT
--4x Switch-PT
--Copper cross  over cable
-
-### Configuration Steps
-1. Physical connections completed
-2. IP addresses assigned
-3. Connectivity tested
-
-3.Star Topology
-
-Devices
-
--4x PC-PT
--1x Switch-PT
--copper straight through
-
-### Configuration Steps
-1. Physical connections completed
-2. IP addresses assigned
-3. Connectivity tested
-
-
-4.Ring Topology
-
--Devices 
--7x PC-PT
--7x Switch
--copper straoght through
--copper cross over
-
-Network Behaviour:
--Logical Topology: STP(spanning tree protocol)
--Physical Topology:7 switches in a ring configuration
-STP denoted by the orange dot,prevents network loops and provises
-
-### Configuration Steps
-1. Physical connections completed
-2. IP addresses assigned
-3. Connectivity tested
-
-5.Extended Star Topology
--Devices
--3x Switch
--6x PC-PT
--copper straight through
+Simple cost-effective design
 
 6.Hybrid Topology
 -2X routers
