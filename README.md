@@ -7,7 +7,7 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student ID:** 31978150
 
 ## Implemented Topologies
-##1. Bus Topology
+## Bus Topology
 File: BusTopology.pkt
 
 Description:
@@ -21,7 +21,7 @@ Terminators at both ends
 
 Simple cost-effective design
 
-##2. Mesh Topology
+## Mesh Topology
 File: MeshTopology1.pkt
 
 Description:
