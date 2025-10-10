@@ -6,7 +6,7 @@ This project demonstrates the design, simulation, and configuration of various n
 **Student Name:** RJ Nkuna 
 **Student ID:** 31978150
 
- Implemented Topologies
+## Implemented Topologies
 1. Bus Topology
 File: BusTopology.pkt
 
