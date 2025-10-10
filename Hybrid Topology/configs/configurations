@@ -1,5 +1,4 @@
 IP configurations
-
 Devices*             *        IPv4 Address       *       IPv6 Address            * DNS
 PC1                  *        192.168.10.10      *     2001:db8:10::10/64        *192.168.30.11
 PC2                  *       192.168.10.11       *      2001:db8:10::11/64       *192.168.30.11
@@ -36,3 +35,46 @@ IPv6:2001:db8:30::12/64
 Subnet Mask:255.255.255.0
 IPv4 Default Gateway:192.168.30.1
 IPv6 Default Gateway:2001:db8:30:1
+
+##VLAN CONFIGURATION
+1.VLAN 10(COMPUTERS)
+2.VLAN 30(SERVERS)
+
+COMPUTERS:
+Network:192.168.10.1/64
+gateway:192.168.10.1(Router1) ,192.168.10.2(router2) BACKUP
+SERVERS:
+Network:192.168.30.1/64
+gateway:192.168.30.1(Router1) ,192.168.30.2(router2) BACKUP
+
+##SWITCH VLAN CONFIGURATION
+create VLans 10,30
+Trunk ports to router
+Trunk port access switch
+Trunk port betweeen the Dist-switch 1 and 2
+
+##router congiguration
+! VLAN10 interface
+interface GigabiEthernet0/0
+ip address 192.168.10.1 255.255.255.255.0
+no shutdown
+! VLAN30 interface
+interface GigabitEthernet0/1
+ip address 192.168.30.1 255.255.255.0
+no shutdown
+##switch configuration
+! create vlans
+vlan 10
+name computers
+vlan 30
+name servers
+!Trunk to router
+interface GigabitEthernet0/1
+switchport mode trunk
+switchport allowed 10,30
+no shutdown
+!Trunk on Acc-switches
+Interface range FastEthernet0/1-6
+switchport mode trunk
+switchport trunk allowed vlan 10,30
+no shutdown
