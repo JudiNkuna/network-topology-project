@@ -1,1 +1,90 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMPG325 Network Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #ffd700;
+            margin-top: 30px;
+        }
+        .info-box {
+            background: rgba(255, 255, 255, 0.2);
+            border-left: 5px solid #ffd700;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+            border-radius: 10px;
+        }
+        .feature {
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.3);
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Welcome to CMPG325 Network</h1>
+        <p style="font-size: 1.3em;">Hybrid Topology Web Server</p>
+        
+        <h2>Network Information</h2>
+        <div class="info-box">
+            <strong>Server IP:</strong> 10.30.30.12<br>
+            <strong>VLAN:</strong> 30 (Servers)<br>
+            <strong>Network Type:</strong> Hybrid Topology<br>
+            <strong>Architecture:</strong> 3-Layer Design
+        </div>
+        
+        <h2>Network Features</h2>
+        <div class="feature">✅ IPv4 & IPv6</div>
+        <div class="feature">✅ VLAN Segmentation</div>
+        <div class="feature">✅ HTTP Server</div>
+        <div class="feature">✅ DNS Server</div>
+        <div class="feature">✅ DHCP Server</div>
+        <div class="feature">✅ Port Security</div>
+        
+        <h2>Topology Layers</h2>
+        <div class="info-box">
+            <strong>Core Layer:</strong> 2 Routers<br>
+            <strong>Distribution Layer:</strong> 2 Switches<br>
+            <strong>Access Layer:</strong> 4 Switches<br>
+            <strong>End Devices:</strong> 12 PCs + 3 Servers
+        </div>
+        
+        <div class="footer">
+            <p>✨ Successfully configured by [Your Name] ✨</p>
+            <p>CMPG325 - Computer Networks Project</p>
+        </div>
+    </div>
+</body>
+</html>
